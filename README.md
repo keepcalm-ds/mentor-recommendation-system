@@ -1,2 +1,1 @@
-# mentor-recommendation-system
-Mentor recommendation system draft
+###"Рекомендательная система для онлайн-сервиса подбора менторов"
