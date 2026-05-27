@@ -13,9 +13,10 @@ Mentor-Mentee Matching System - рекомендательная система 
 
 ## 1. ДАННЫЕ И ИХ ОСОБЕННОСТИ
 ### 1.1 Состав датасета
-Файл - mentees.csv, строк - 5000, содержание - профили менти: level, domain, profession, skills, goal, language, format
-Файл - mentors.csv, строк - 2000, содержание - профили менторов: + experience_years, available, boosted, boost_k
-Файл - mentors_ratings.csv, строк - 2000, содержание - рейтинги: N(3.8, 0.7) в диапазоне [1, 5]
+| Файл | Строк | Сожержание | 
+| mentees.csv | 5000 | профили менти: level, domain, profession, skills, goal, language, format |
+| mentors.csv | 2000 | профили менторов: + experience_years, available, boosted, boost_k |
+| mentors_ratings.csv | 2000 | рейтинги: N(3.8, 0.7) в диапазоне [1, 5] |
 
 ### 1.2 Пропуски в данных
 ~35% менти и ~32% менторов имеют хотя бы один пустой атрибут. Это реалистичная ситуация для любой платформы - пользователи не заполняют профили полностью.
