@@ -6,7 +6,7 @@ Mentor-Mentee Matching System - рекомендательная система 
 Структура пайплайна:
 | Тетрадка | Входные файлы | Выходные файлы |
 | :--- | :---: | ---: |
-| 1_ontology.ipynb | mentees.csv, mentors.csv ontology_domains.csv, ontology_role_domain_mapping.csv, ontology_domain_similarity.csv | 
+| 1_ontology.ipynb | mentees.csv, mentors.csv | ontology_domains.csv, ontology_role_domain_mapping.csv, ontology_domain_similarity.csv | 
 | 2_preprocessing.ipynb | +ontology_*.csv | mentees_processed.csv, mentors_processed.csv, skill_vocabulary.csv |
 | 3_scoring.ipynb | + *_processed.csv, mentor_ratings.csv | normalization_bounds.csv, mentee_weights.csv, recommendations.csv |
 | 4_evaluation.ipynb | + все предыдущие | evaluation_results.csv |
