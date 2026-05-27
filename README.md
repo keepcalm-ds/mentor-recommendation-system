@@ -14,6 +14,7 @@ Mentor-Mentee Matching System - рекомендательная система 
 ## 1. ДАННЫЕ И ИХ ОСОБЕННОСТИ
 ### 1.1 Состав датасета
 | Файл | Строк | Сожержание | 
+| :--- | :---: | ---: |
 | mentees.csv | 5000 | профили менти: level, domain, profession, skills, goal, language, format |
 | mentors.csv | 2000 | профили менторов: + experience_years, available, boosted, boost_k |
 | mentors_ratings.csv | 2000 | рейтинги: N(3.8, 0.7) в диапазоне [1, 5] |
